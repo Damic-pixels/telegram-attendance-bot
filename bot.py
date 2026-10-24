@@ -6,6 +6,8 @@ Department Attendance Bot (Telegram)
 - Auto-notifies registered students when a session opens
 - Admin lists, absentees, Excel export
 """
+from dotenv import load_dotenv
+load_dotenv()
 import asyncio
 import functools
 import io
